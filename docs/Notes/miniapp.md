@@ -75,6 +75,7 @@ AXML 语法可分为五个部分
 [模板](https://miniapp.open.taobao.com/doc.htm?docId=117162&docType=1&source=search)、
 [引用](https://miniapp.open.taobao.com/doc.htm?docId=117163&docType=1&source=search)。
 
+关于AXML语法，官方文档已经写的很详细了，这里就不再浪费篇幅，不过有一点需要注意。
 
 ### 注意
 a-if 表达式支持的语法：
