@@ -22,10 +22,14 @@ module.exports = {
     }, {
       text: 'Documents',
       link: '/Notes/'
-    }, {
-      text: 'Learning',
-      link: '/Learning/'
-    }, ],
+    },
+      {
+        text: 'MiniApp',
+        link: '/MiniApp/'
+      }, {
+        text: 'Learning',
+        link: '/Learning/'
+      },],
     displayAllHeaders: false, //显示所有页面的标题链接
     sidebarDepth: 2,
     sidebar: {
@@ -46,9 +50,9 @@ module.exports = {
       ],
       '/Learning/': [
         ['vuepress', 'VuePress教程'],
-        ['publish','观察者模式&发布-订阅模式'],
-        ['bind','双向数据绑定'],
-        ['loop','事件循环'],
+        ['publish', '观察者模式&发布-订阅模式'],
+        ['bind', '双向数据绑定'],
+        ['loop', '事件循环'],
         ['closure', '执行环境、作用域链与闭包'],
         ['catch', '全局异常捕获'],
         ['ast', '抽象语法树'],
@@ -57,8 +61,11 @@ module.exports = {
       '/Notes/': [
         ['publish', '发布宝贝'],
         ['goodsProps', '宝贝属性详解'],
-        ['fieReactUpgrade', 'fie升级React16实录'],
+        ['fieReactUpgrade', 'fie升级React16实录']
+      ],
+      '/MiniApp/': [
         ['miniapp', '商家应用知识点梳理'],
+        ['hack', '无侵入式运营对接方案']
       ],
       /**
        *  // fallback,确保 fallback 侧边栏被最后定义。VuePress 会按顺序遍历侧边栏配置来寻找匹配的配置。
