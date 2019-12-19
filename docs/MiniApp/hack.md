@@ -127,6 +127,7 @@ function statisticHack(option, property) {
     return old_func.apply(this, args); // 执行原有函数逻辑
   }
 }
+
 ```
 对所有函数添加埋点检测逻辑，如果含有埋点数据，那么先进行埋点收集，如果无埋点数据，那么直接执行原有逻辑。
 
