@@ -65,7 +65,10 @@ module.exports = {
       ],
       '/MiniApp/': [
         ['miniapp', '商家应用知识点梳理'],
-        ['hack', '无侵入式运营对接方案']
+        ['hack', '无侵入式运营对接方案'],
+        ['frame', '全局统一交互实现'],
+        ['navigate', '导航功能扩展'],
+        ['top', '授权接口调用'],
       ],
       /**
        *  // fallback,确保 fallback 侧边栏被最后定义。VuePress 会按顺序遍历侧边栏配置来寻找匹配的配置。
