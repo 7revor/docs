@@ -61,7 +61,8 @@ module.exports = {
       '/Notes/': [
         ['publish', '发布宝贝'],
         ['goodsProps', '宝贝属性详解'],
-        ['fieReactUpgrade', 'fie升级React16实录']
+        ['fieReactUpgrade', 'fie升级React16实录'],
+        ['2019', '毕业这几年']
       ],
       '/MiniApp/': [
         ['miniapp', '商家应用知识点梳理'],
