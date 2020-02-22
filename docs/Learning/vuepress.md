@@ -576,7 +576,7 @@ gem install travis
 重试了几次发现敲完这段`shell`如同石沉大海一般，就算开了代理还是纹丝不动，没办法只能换镜像了。
 ```bash
 gem update --system
-gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
+gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
 ```
 好了，现在可以愉快的安装 `travis` 了
 ```bash
